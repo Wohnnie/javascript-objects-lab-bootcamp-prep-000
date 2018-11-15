@@ -1,8 +1,8 @@
-var recipes = {}
+var recipes = {};
 
 function updateObjectWithKeyAndValue(recipes, mac, cheese) {
-  Object.assign({}, recipes, {mac:"milk"})
-  return Object
+  recipes[mac] = "milk"
+  return recipes
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(recipes, mac, cheese) {
